@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+   <Button
+       android:id="@+id/intents"
+       android:text="跳转"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+   </Button>
+   <Button
+       android:id="@+id/send"
+       android:text="开始发送"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+   </Button>
+   <TextView
+       android:textSize="17dp"
+       android:gravity="center"
+       android:id="@+id/jieshou"
+       android:text="产生的程度"
+       android:layout_width="match_parent"
+       android:layout_height="100dp">
+
+   </TextView>
+   <TextView
+       android:textSize="17dp"
+       android:gravity="center"
+       android:id="@+id/success"
+       android:text="达到就开始"
+       android:layout_width="match_parent"
+       android:layout_height="100dp">
+
+   </TextView>
+   <TextView
+       android:textSize="17dp"
+       android:gravity="center"
+       android:id="@+id/chakan"
+       android:text="曹冲称象"
+       android:layout_width="match_parent"
+       android:layout_height="100dp">
+
+   </TextView>
+
+</LinearLayout>
